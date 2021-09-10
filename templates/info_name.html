@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Screenshot Taker</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+
+</head>
+<body> 
+<form action="/take_screenshot" method="get">
+  <div class ="p1">
+    <p1>Click the to take screenshot</p1>
+  </div>
+  <div class ="p2">
+    <p1>Locate your page to take screenshot within 5 seconds.</p1>
+  </div>
+    <button class="btn"><i class="fa fa-download"></i>Take screenshot</button>
+</form>
+<form action="/">
+  <p><input type="submit" class="btn1" value="Return"/> </p>
+  </form>
+  
+</body>
+</html>
